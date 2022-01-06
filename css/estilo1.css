@@ -1,0 +1,55 @@
+/*Seletor Universal*/
+/*
+* {
+    border: 1px solid red;
+}
+
+Seletor de Texto
+
+h1 {
+    color: green;
+}
+*/
+/*Seletor de Classe
+
+.verde {
+    color: green;
+}
+
+p.verde {
+    color: green;
+}*/
+
+/*Seletor de ID
+
+#cabecalho {
+    border: verde;
+}*/
+
+/*Seletor de filho - seleciona um elemento que é filho direto de outro EX.: li>a{} ->seleciona elementos do tipo <a> que são filhos de <li>
+
+li>a {
+    color: red;
+    text-decoration: none;
+}*/
+
+/*Seletor de descendente - seleciona um elemento que é descendento de outro elemento especificado (**não somento o filho) Ex.: p a {} -> seleciona qualquer elemento <> que exista dentro de um elemento <p>
+
+li a {
+    color: green;
+}
+
+div a {
+    color: green;
+}*/
+/*Seletor de irmão adjacente - selciona um elemento que é irmão próximo de outro ex.: h1+p{} -> Seleciona o primeiro elemento <p> depois de qualquer elemento <h1> (**mas não outros elementos <p>)
+
+h1+p {
+    color: red;
+}*/
+
+/*Seletor de irmão Geral - seleciona um elemento que é um irmão de outro, embora ele não orecise ser o elemento diretamente precedente Ex.: h1~p{} -> Se houvesse dois elementos <p> que fossem irmãos de um elemento <h1>, a regra se aplicaria aos dois*/
+
+h1~p {
+    color: pink;
+}
